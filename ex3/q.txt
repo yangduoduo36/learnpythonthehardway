@@ -1,0 +1,11 @@
+Why is the % character a "modulus" and not a "percent"?
+Mostly that's just how the designers chose to use that symbol. In normal writing you are correct to read it as a "percent." In programming this calculation is typically done with simple division and the / operator. The % modulus is a different operation that just happens to use the % symbol.
+
+How does % work?
+Another way to say it is, "X divided by Y with J remaining." For example, "100 divided by 16 with 4 remaining." The result of % is the J part, or the remaining part.
+
+What is the order of operations?
+In the United States we use an acronym called PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction. That's the order Python follows as well.
+
+Why does / (divide) round down?
+It's not really rounding down; it's just dropping the fractional part after the decimal. Try doing 7.0 / 4.0 and compare it to 7 / 4 and you'll see the difference.
