@@ -1,4 +1,4 @@
 learnpythonthehardway
 =====================
 
-My try at learnpythonthehardway
+My try at Learn Python the Hard Way
