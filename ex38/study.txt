@@ -1,0 +1,1 @@
+Translate these two ways to view the function calls in English. For example, more_stuff.pop() reads as, "Call pop on more_stuff." Meanwhile, pop(more_stuff) means, "Call pop with argument more_stuff." Understand how they are really the same thing
