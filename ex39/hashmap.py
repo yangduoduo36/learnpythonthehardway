@@ -59,3 +59,20 @@ def list(aMap):
 			for k, v in bucket:
 				print k, v
 
+def dump(aMap):
+	"""Dumps the raw contents of every bucket in a hashmap."""
+	print '%r' % aMap
+	for i,bucket in enumerate(aMap):
+		print 'Bucket: %d' % i
+		print '=' * 11
+		
+		if not bucket:
+			print "Empty bucket"
+			print '\n'
+		else:
+			for key, value in bucket:
+				print 'Raw Key: %r' % key
+				print 'Raw Value: %r' % value
+				print '\n'
+		print '***' * 11
+		print '\n'		

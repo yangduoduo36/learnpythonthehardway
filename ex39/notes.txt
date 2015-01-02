@@ -1,0 +1,39 @@
+hash() - returns an integer value for the given input
+
+===
+
+get():
+Syntax:
+	dict.get(key, default=None)
+Parameters:
+	key -- This is the "Key" to be searched in the dictionary.
+	default -- This is the "Value" to be returned in case "key" does not exist.
+
+===
+	
+xrange():
+	very similar to range(), but returns an xrange object instead of a list.
+	The advantage of xrange() over range() is minimal (since xrange() still has to create the values when asked for them) except when a very large range is used on a memory-starved machine or when all of the range’s elements are never used (such as when the loop is usually terminated with break). 
+
+===
+	
+enumerate():
+Syntax: enumerate(sequence, start=0)
+Description:
+	Return an enumerate object. sequence must be a sequence, an iterator, or some other object which supports iteration. 
+	The next() method of the iterator returned by enumerate() returns a tuple containing a count (from start which defaults to 0) and the values obtained from iterating over sequence:
+
+	>>>
+	>>> seasons = ['Spring', 'Summer', 'Fall', 'Winter']
+	>>> list(enumerate(seasons))
+	[(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+	>>> list(enumerate(seasons, start=1))
+	[(1, 'Spring'), (2, 'Summer'), (3, 'Fall'), (4, 'Winter')]
+	
+	Equivalent to:
+
+	def enumerate(sequence, start=0):
+		n = start
+		for elem in sequence:
+		    yield n, elem
+		    n += 1
