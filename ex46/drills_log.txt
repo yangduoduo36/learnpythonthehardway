@@ -1,0 +1,21 @@
+nitin@trusty:~/Projects/learnpythonthehardway/ex46/projects$ sudo pip install skeleton/
+Unpacking ./skeleton
+  Running setup.py (path:/tmp/pip-4kP1ye-build/setup.py) egg_info for package from file:///home/nitin/Projects/learnpythonthehardway/ex46/projects/skeleton
+    
+Requirement already satisfied (use --upgrade to upgrade): nose in /usr/local/lib/python2.7/dist-packages (from testproject==0.1)
+Installing collected packages: testproject
+  Running setup.py install for testproject
+    changing mode of build/scripts-2.7/hello.py from 644 to 755
+    
+    changing mode of /usr/local/bin/hello.py to 755
+Successfully installed testproject
+Cleaning up...
+nitin@trusty:~/Projects/learnpythonthehardway/ex46/projects$ sudo pip uninstall testproject
+Uninstalling testproject:
+  /usr/local/bin/hello.py
+  /usr/local/lib/python2.7/dist-packages/NAME/__init__.py
+  /usr/local/lib/python2.7/dist-packages/NAME/__init__.pyc
+  /usr/local/lib/python2.7/dist-packages/testproject-0.1.egg-info
+Proceed (y/n)? y
+  Successfully uninstalled testproject
+nitin@trusty:~/Projects/learnpythonthehardway/ex46/projects$ 

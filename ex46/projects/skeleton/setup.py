@@ -12,8 +12,8 @@ config = {
 	'version':'0.1',
 	'install_requires': ['nose'],
 	'packages': ['NAME'],
-	'scripts': [],
-	'name': 'projectname'
+	'scripts': ['bin/hello.py'],
+	'name': 'testproject'
 }
 
 setup(**config)
