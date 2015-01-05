@@ -1,0 +1,20 @@
+nitin@kali:~/repos/learnpythonthehardway/ex49$ python
+Python 2.7.3 (default, Mar 14 2014, 11:57:14) 
+[GCC 4.7.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from ex48.parser import *
+>>> x = parse_sentence([('verb', 'run'), ('direction', 'north')])
+>>> x.subject
+'player'
+>>> x.verb
+'run'
+>>> x.object
+'north'
+>>> x = parse_sentence([('noun', 'bear'), ('verb', 'eat'), ('stop', 'the'), ('noun', 'honey')])
+>>> x.subject
+'bear'
+>>> x.verb
+'eat'
+>>> x.object
+'honey'
+>>> 
